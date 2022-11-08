@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - # チェックアウトアクションを記入してください
+    - uses: actions/checkout@v3
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
@@ -29,4 +29,3 @@ jobs:
       with:
       name: dotnet-webapp
       path: ${{env.DOTNET_ROOT}}/webapp
-      
