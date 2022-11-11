@@ -1,7 +1,7 @@
 name: .NET
 
 env:
-  AZURE_WEBAPP_NAME: app-app-kkimura-dryrun-20221108bmia
+  AZURE_WEBAPP_NAME: app-windows-f1-kkimura-20221111-3myb6
   AZURE_WEBAPP_PACKAGE_PATH: '.'  
 
 on:
